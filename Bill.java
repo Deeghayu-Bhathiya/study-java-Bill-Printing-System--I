@@ -84,9 +84,11 @@ class Bill{
 			System.out.println("|        |             |             |                         |");
 			System.out.println("+--------------------------------------------------------------+");
 			System.out.printf("|                      | Total       | %23.2f |%n ",(b_price+dh_price +su_price+hi_price+yo_price+fl_price+so_price)  );
-//			System.out.printf("| Soap   | %11d | %11.2f | %23.2f |%n",  Soap ,Soap_que ,Soap* Soap_que );
-			
-		
+			System.out.println("+--------------------------------------------------------------+");
+			System.out.printf("|                      |Discount(10%%)| %23.3f |%n ",(b_price+dh_price +su_price+hi_price+yo_price+fl_price+so_price)*0.1  );
+			System.out.println("+--------------------------------------------------------------+");
+			System.out.printf("|                      |price        | %23.3f |%n ",(b_price+dh_price +su_price+hi_price+yo_price+fl_price+so_price)-( (b_price+dh_price +su_price+hi_price+yo_price+fl_price+so_price)*0.1)  );
+		    System.out.println("+--------------------------------------------------------------+");
 			
 
                          
