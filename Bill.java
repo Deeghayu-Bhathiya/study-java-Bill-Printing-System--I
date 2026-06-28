@@ -42,6 +42,13 @@ class Bill{
 			double yoghurt_que	=120.00;
 			double Flour_que	=120.00;
 			double Soap_que     =160.00;
+			double b_price  = basmathi * basmathi_que;
+			double dh_price = dhal * dhal_que;
+			double su_price = sugar * sugar_que;
+			double hi_price = highland * highland_que;
+			double yo_price = yoghurt * yoghurt_que;
+			double fl_price = Flour * Flour_que;
+			double so_price = Soap * Soap_que;
 			
 			System.out.println("+--------------------------------------------------------------+");
 			System.out.println("|  _     __    __             __________ ______________        |");
@@ -67,6 +74,20 @@ class Bill{
 			System.out.println("|        |             |             |                         |");
 			System.out.printf("|sugar   | %11d | %11.2f | %23.2f |%n",  sugar , sugar_que,sugar * sugar_que);
 			System.out.println("|        |             |             |                         |");
+			System.out.printf("|highland| %11d | %11.2f | %23.2f |%n",  highland , highland_que,highland * highland_que);
+			System.out.println("|        |             |             |                         |");
+			System.out.printf("|yoghurt | %11d | %11.2f | %23.2f |%n",  yoghurt , yoghurt_que,yoghurt* yoghurt_que);
+			System.out.println("|        |             |             |                         |");
+			System.out.printf("| Flour  | %11d | %11.2f | %23.2f |%n",   Flour ,Flour_que,Flour* Flour_que);
+			System.out.println("|        |             |             |                         |");
+			System.out.printf("| Soap   | %11d | %11.2f | %23.2f |%n",  Soap ,Soap_que ,Soap* Soap_que );
+			System.out.println("|        |             |             |                         |");
+			System.out.println("+--------------------------------------------------------------+");
+			System.out.printf("|                      | Total       | %23.2f |%n ",(b_price+dh_price +su_price+hi_price+yo_price+fl_price+so_price)  );
+//			System.out.printf("| Soap   | %11d | %11.2f | %23.2f |%n",  Soap ,Soap_que ,Soap* Soap_que );
+			
+		
+			
 
                          
 
